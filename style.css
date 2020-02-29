@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  border-color: grey;
+}
+
+.wrapper{
+  width: 780px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.header{
+  height: 70px;
+  width: 100%;
+  padding: 5px;
+  margin: 20px 0;
+  overflow: hidden;
+  background: repeat-x grey;
+}
+
+.header .menu{
+  margin-top: 3px;
+  list-style: none;
+  float: right;
+  
+}
+
+.header .menu li{
+  float: left;
+  padding: 8px 20px;
+  border-right: 1px solid yellow;
+}
+
+.header .menu li a{
+  color: white;
+  text-decoration: none;
+}
+
+#daftar-artikel{
+  width: 470px;
+  float: left;
+}
+
+.artikel{
+  background:red;
+  padding: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.artikel img{
+  float: left;
+  margin-left: 10px;
+  width: 200px;
+  height: 165px;
+}
+
+.artikel b{
+  color: yellow;
+  background: black;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.artikel p{
+  margin: 10px;
+
+}
+
+.artikel a{
+  display: block;
+  text-align: right;
+  color: black;
+}
+
+#sidebar{
+  width: 270px;
+  float: right;
+}
+
+#sidebar h2{
+  font-size: 10px;
+  margin: 10px 0;
+}
+
+#sidebar p{
+  line-height: 20px;
+  color: red; 
+}
+
+#sidebar ul li a{
+  color: bisque;
+  text-decoration: none;
+}
+
+#footer{
+  clear: both;
+  margin: 20px 0;
+  text-align: center;
+  background-color: blanchedalmond;
+  padding: 5px;
+  color: brown;
+
+}
